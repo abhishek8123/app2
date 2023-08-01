@@ -8,6 +8,8 @@ public class AppControllers {
 	
 	@GetMapping("/msg")
 	public String getMsg() {
+		int a = 10;
+		String b = "abhishek";
 		return "hai kiran with abhishek";
 	}
 
